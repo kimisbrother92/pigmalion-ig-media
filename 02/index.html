@@ -1,0 +1,102 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>가치 조정 % 정하는 법</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gaegu:wght@700&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.3/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css">
+<style>
+:root{--paper:#F3F4F6;--cell:#fff;--ink:#1B2230;--ink2:#4A5263;--ink3:#8A92A3;--line:rgba(27,34,48,.10);--cobalt:#1F3FC4}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:"Wanted Sans Variable",Pretendard,system-ui,sans-serif;word-break:keep-all;line-height:1.6}
+main{max-width:560px;margin:0 auto;padding:24px 16px 48px}
+.brand{display:flex;align-items:center;gap:8px;font:700 24px Gaegu,sans-serif;color:var(--ink2);text-decoration:none}
+.brand svg{width:36px;height:33px}
+h1{font-size:26px;line-height:1.3;letter-spacing:-.5px;margin:20px 0 6px}
+.lede{color:var(--ink2);font-size:15px;margin-bottom:20px}
+h2{font-size:19px;margin:36px 0 10px}
+.img{width:100%;border-radius:16px;display:block;box-shadow:0 2px 6px rgba(27,34,48,.06),0 12px 32px rgba(27,34,48,.07)}
+.hint{font-size:13px;color:var(--ink3);margin-top:8px;text-align:center}
+.steps{background:var(--cell);border-radius:16px;padding:16px 18px;font-size:15px;color:var(--ink2);white-space:pre-wrap}
+.prompt{position:relative;margin-top:12px;background:var(--cell);border-radius:16px;border:1px solid var(--line)}
+.prompt pre{white-space:pre-wrap;font:14px/1.6 "Wanted Sans Variable",Pretendard,system-ui,sans-serif;padding:56px 18px 18px;color:var(--ink)}
+.copy{position:absolute;top:12px;right:12px;border:0;border-radius:10px;background:var(--cobalt);color:#fff;font:600 14px inherit;font-family:inherit;padding:8px 14px;cursor:pointer}
+.copy:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+.follow{display:block;margin-top:40px;text-align:center;background:var(--cell);border-radius:16px;padding:20px;color:var(--ink);text-decoration:none;font-weight:600}
+.follow span{display:block;font-weight:400;font-size:14px;color:var(--ink2);margin-top:4px}
+ul.list{list-style:none}
+ul.list a{display:block;background:var(--cell);border-radius:14px;padding:16px 18px;margin-bottom:10px;color:var(--ink);text-decoration:none;font-weight:600}
+</style></head><body><svg width="0" height="0" style="position:absolute"><filter id="w"><feTurbulence type="fractalNoise" baseFrequency=".035" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="2.8"/></filter><symbol id="pig" viewBox="0 0 120 110"><g filter="url(#w)" fill="none" stroke="#2a2420" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M31 33C24 17 27 7 34 8C41 10 47 18 47 25" fill="#fff"/><path d="M77 23C84 11 92 7 96 13C99 19 96 28 91 34" fill="#fff"/>
+  <path d="M20 57C17 32 40 19 61 20C83 20 99 36 97 59C96 81 76 93 55 91C32 90 21 77 20 57Z" fill="#fff"/>
+  <ellipse cx="32" cy="66" rx="7.5" ry="4.2" fill="#F6A9B6" stroke="none" opacity=".75"/><ellipse cx="86" cy="64" rx="7.5" ry="4.2" fill="#F6A9B6" stroke="none" opacity=".75"/>
+  <ellipse cx="40" cy="51" rx="2.6" ry="3.8" fill="#2a2420" stroke="none"/><ellipse cx="77" cy="49" rx="2.6" ry="3.8" fill="#2a2420" stroke="none"/>
+  <path d="M45 63C44 54 72 52 74 60C76 71 47 73 45 63Z" fill="#FBD3DA"/>
+  <ellipse cx="54" cy="63" rx="1.9" ry="3" fill="#2a2420" stroke="none"/><ellipse cx="65" cy="62" rx="1.9" ry="3" fill="#2a2420" stroke="none"/>
+  <path d="M54 79Q59 83 64 78"/></g></symbol></svg><main>
+<a class="brand" href="../"><svg viewBox="0 0 120 110" aria-hidden="true"><use href="#pig"/></svg>pigmalion 자료실</a>
+<h1>가치 조정 % 정하는 법</h1>
+<p class="lede">저장해두고 성과가 떨어질 때 위에서부터 확인하세요</p>
+<img class="img" src="checklist.jpg" alt="가치 조정 % 정하는 법 이미지">
+<p class="hint">이미지를 길게 누르면 저장돼요</p>
+<h2>가치 조정, 공식 설명으로 조금 더 자세히</h2>
+<div class="steps">가치 조정은 특정 타겟·노출 위치·전환 위치의 결과가 나에게 얼마나 더(또는 덜) 값진지 메타에 알려주는 기능이에요. 메타는 그에 맞춰 입찰가를 조정해 게재해요.
+
+■ 조정 범위: 입찰가를 최대 1,000% 늘리거나 최대 90% 줄일 수 있어요
+■ 쓸 수 있는 기준: 연령, 성별, 위치, OS, 기기 플랫폼, 일부 노출 위치, 전환 위치
+■ 조정에 해당 안 되는 사람: 조정 안 된 원래 입찰가가 적용돼요
+■ 못 쓰는 경우: ROAS 목표, 입찰가 한도 같은 수동 입찰 전략
+■ 특별 광고 카테고리: 연령·성별·도시 등 일부 기준은 쓸 수 없어요 (고르면 오류가 나고 광고가 거부돼요)
+■ 만드는 곳: 광고 설정 또는 광고 세트에서 만들고, 각 광고 세트에 적용해요
+■ 참고: 전환이 늘 수 있지만 결과당 비용도 늘 수 있어요</div>
+
+<h2>공식 예시 1 · 값어치만큼 올리고 내리기</h2>
+<div class="steps">25~44세 남성의 평균 생애 가치(LTV)가 기준보다 60% 높고, 25~44세 여성은 20% 낮다면
+→ 25~44세 남성 입찰가 +60%, 25~44세 여성 입찰가 -20%
+→ 둘 다 아닌 사람은 원래 입찰가 그대로</div>
+
+<h2>공식 예시 2 · 쪽지(규칙)가 겹치면</h2>
+<div class="steps">규칙 1: 캘리포니아에 사는 여성 +20%
+규칙 2: 특정 모바일 OS를 쓰는 여성 +50%
+
+캘리포니아에 살면서 그 OS를 쓰는 여성은 두 규칙에 다 해당하지만,
+순서상 첫 번째인 규칙 1만 적용돼서 +20%만 받아요. 더 큰 %가 아니라 순서가 이겨요.</div>
+
+<p class="hint" style="text-align:left">출처: Meta 광고 관리자 도움말 "가치 조정 정보"</p>
+<h2>AI 프롬프트</h2>
+<div class="steps">■ 어디에: 챗GPT, 클로드, 제미나이 중 아무거나 (무료 버전도 돼요)
+■ 무엇을: 메타 광고 관리자의 연령·성별 분석 표 (지출, 결과, 구매 전환값이 있으면 더 좋아요)
+■ 어떻게:
+  1. 광고 관리자 → 가치 조정을 걸고 싶은 캠페인·광고 세트 선택 → 오른쪽 위 &quot;분석 기준&quot; → &quot;연령 및 성별&quot;
+  2. 기간은 최근 30일 정도로, 결과가 충분히 쌓인 기간을 고르기
+  3. 표를 드래그해서 복사(Ctrl+C) — 또는 &quot;내보내기&quot;로 CSV 파일 받기
+  4. AI 새 대화에 아래 프롬프트를 &quot;복사&quot; 버튼으로 복사해 붙여넣고, 맨 끝 자리에 표를 붙여넣기
+  5. 엔터. 그룹마다 몇 % 걸면 될지, 규칙 세트에 어떤 순서로 넣을지 나와요</div>
+<div class="prompt"><button class="copy" type="button">복사</button><pre>너는 메타 광고를 운영하는 퍼포먼스 마케터야.
+아래에 연령·성별 분석 표를 붙여넣을게. 이걸로 가치 조정 %를 정하고 싶어.
+
+가치 조정 규칙(메타 공식):
+- 특정 그룹의 입찰가를 최대 1,000% 늘리거나 최대 90% 줄일 수 있어
+- 조정에 해당 안 되는 사람은 원래 입찰가 그대로야
+- 규칙이 겹치면 규칙 세트에서 위에 있는 조정 하나만 적용돼
+
+이 순서로 해줘.
+
+1) 그룹별 값어치: 연령×성별 그룹마다 결과당 비용(CPA), ROAS(전환값이 있으면), 결과 수를 표로 정리해줘.
+   결과가 너무 적은 그룹(예: 10건 미만)은 &quot;데이터 부족&quot;으로 표시하고 계산에서 빼줘.
+2) 기준 그룹: 결과가 가장 많이 쌓인 그룹, 또는 전체 평균을 기준(0%)으로 잡아줘. 왜 그걸 골랐는지 한 줄로.
+3) % 계산: 기준보다 얼마나 더 값진지/덜 값진지를 %로 바꿔줘.
+   예: ROAS가 기준보다 60% 높으면 +60%, 20% 낮으면 -20%.
+   범위(+1,000% ~ -90%)를 넘으면 범위 끝으로 맞춰줘.
+4) 처음 걸 값: 계산값을 그대로 쓰지 말고, 처음엔 절반 정도로 작게 시작하는 안도 같이 줘. (내 추천 방식이야, 공식 규칙은 아니야)
+5) 규칙 세트 순서: 겹치는 조건이 있으면 좁은 조건을 위로 올린 순서로 &quot;가치 조정 1, 2, 3…&quot;을 적어줘.
+   넓은 조정이 좁은 조정의 우위를 지우는 경우가 있으면 경고해줘.
+
+숫자가 부족해서 판단 못 하는 부분은 &quot;판단 보류&quot;라고 따로 적고, 추측은 추측이라고 써줘.
+
+[여기에 연령·성별 분석 표 붙여넣기]</pre></div>
+<a class="follow" href="https://www.instagram.com/pigmalion.kr/">인스타에서 다음 자료 받기<span>@pigmalion.kr 팔로우해두면 새 자료 올라올 때 바로 보여요</span></a></main><script>
+document.querySelectorAll('.copy').forEach(b=>b.addEventListener('click',async()=>{
+  const t=b.nextElementSibling.innerText;
+  try{await navigator.clipboard.writeText(t);b.textContent='복사됐어요'}
+  catch(e){const r=document.createRange();r.selectNodeContents(b.nextElementSibling);const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='길게 눌러 복사'}
+  setTimeout(()=>b.textContent='복사',2000);
+}));
+</script></body></html>
